@@ -1,2 +1,2 @@
-# Assignment2BarrierReef-
-This is the version control git for the Barrier Reef Cp1406 Assignment
+#Assignment2 - Barrier Reef Orchestra
+This is the version control git for the Barrier Reef CP1406 Assignment.
