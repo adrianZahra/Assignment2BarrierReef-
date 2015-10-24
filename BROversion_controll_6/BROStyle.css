@@ -94,6 +94,19 @@ html{
 	font-family:calibri;
 }
 
+.smallcontainer{
+	border-color:#999;
+	border-radius: 8px;
+	background-color:#EBEBEB;
+	border-style:solid;	
+	border-width:4px;
+	float:left;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	margin-top:.0.5%;
+	font-family:calibri;
+}
+
 .leftbar{
 	border-color:#999;
 	border-radius: 8px;
@@ -141,7 +154,7 @@ html{
 
 #rightboxtitle{
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;	
-	font-size:12px;
+	font-size:30px;
 }
 
 #homeimage2{
