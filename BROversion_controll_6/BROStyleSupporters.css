@@ -53,7 +53,7 @@ html{
 }
 
 .navbar a:hover {
-	color:#5085D3;
+	color:#2B15EA;
 	font-weight: bold;
 }
 
@@ -199,4 +199,29 @@ html{
 	display:block;
 	text-align:center;
 	padding-top:1%;
+}
+
+.sponsortable{
+	width:98%;
+	padding:1%;
+}
+
+#leftimg{
+	width:49%;
+	padding-bottom:1%;
+}
+
+#rightimg{
+	width:49%;
+	padding-bottom:1%;	
+}
+
+a, a:link {
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+}
+
+a:hover {
+	color:#2B15EA;
 }
