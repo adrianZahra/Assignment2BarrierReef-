@@ -1,0 +1,227 @@
+@charset "utf-8";
+html{
+	Background-color:#FFF;	
+}
+
+.Pageheader{
+	background-color:#5085D3;
+	color:#000;
+	text-align:left;
+	padding:0.5%;
+	font-size:35px;
+	border-radius: 20px;
+	border-color:#2B15EA;
+	border-style: solid;
+	border-width:5px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+#logo {
+	float:left;
+}
+
+#pagename{
+	text-align:center;
+	font-size: 35px;
+	padding-top:2%;
+}
+
+
+.navbar{
+	height: 100%;
+	text-align: center;
+	font-size: 40%;
+	width:100%;
+	
+}
+
+.navbar ul{
+	list-style-type: none;	
+}
+
+.navbar li{
+	display:block;
+	padding-top:5%;
+	padding-bottom:5%;
+	text-align:center;
+}
+
+.navbar a {
+	font-size:30px;
+	color:#000;
+	text-decoration:none;
+}
+
+.navbar a:hover {
+	color:#2B15EA;
+	font-weight: bold;
+}
+
+.pagebody{
+	padding-top:1%;
+}
+
+
+.pageholder {
+	border-color:#FFF;
+	border-radius: 8px;
+	background-color:#FFF;
+	border-style:solid;
+	width:90%;
+	margin-left:1%;
+	margin-right:1%;
+	height:100%;	
+	border-width:4px;
+	float:left;
+	text-align:left;
+	padding:1%;
+
+}
+
+
+.rightbar{
+	border-color:#999;
+	border-radius: 8px;
+	background-color:#EBEBEB;
+	border-style:solid;
+	width:66%;
+	height:100%;	
+	border-width:4px;
+	float:right;
+	padding-left:1%;
+	padding-right:1%;
+	margin-top:.1%;
+	font-family:calibri;
+}
+
+.smallcontainer{
+	border-color:#999;
+	border-radius: 8px;
+	background-color:#EBEBEB;
+	border-style:solid;	
+	border-width:4px;
+	float:left;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	margin-top:.0.5%;
+	font-family:calibri;
+}
+
+.leftbar{
+	border-color:#999;
+	border-radius: 8px;
+	background-color:#EBEBEB;
+	border-style:solid;
+	width:24%;
+	height:100%;	
+	float:left;
+	margin-top:.1%;
+	font-family:calibri;
+}
+
+
+.footer{
+	border-color:#2B15EA;
+	border-radius: 20px;
+	background-color:#EBEBEB;
+	border-style:solid;
+	margin-top: 1%;
+	width:100%;		
+	float:left;
+	text-align:left;
+	padding:1% 1% 1% 1%;
+	margin-bottom:1%;
+	font-family:calibri;
+	border-width:5px;
+		
+}
+
+.footerouter{
+	width:97.4%;
+}
+
+#leftboximage1{
+	padding:1% 1% 1% 1%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#leftboxtitle{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;	
+	font-size:20px;
+}
+
+#rightboxtitle{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;	
+	font-size:30px;
+	text-align:center;
+}
+
+#rightboxtitle2{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;	
+	font-size:20px;
+	text-align:center;
+}
+
+#rightboxtitle3{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;	
+	font-size:30px;
+	text-align:center;
+}
+
+#homeimage2{
+	padding:1% 1% 1% 1%	
+}
+
+#footerimg{
+	float:left;
+	padding:1% 1% 1% 1%	
+}
+#RTT{
+	text-align:center;
+}.pagebody .pageholder .rightbar #rightboxtitle img {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.images {
+	padding: 5px;
+	margin: 5px;
+	border: medium double #333;
+}
+
+.roll, ul{
+	list-style-type:none;
+}
+
+.roll, li{
+	display:block;
+	text-align:center;
+	padding-top:1%;
+}
+
+.sponsortable{
+	width:98%;
+	padding:1%;
+}
+
+#leftimg{
+	width:49%;
+	padding-bottom:1%;
+}
+
+#rightimg{
+	width:49%;
+	padding-bottom:1%;	
+}
+
+a, a:link {
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+}
+
+a:hover {
+	color:#2B15EA;
+}

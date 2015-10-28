@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gallery</title>
+<link href="BROStylegallery.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+var imagecount = 1;
+var total = 98;
+
+function slide(x) {
+   var Image = document.getElementById('img');
+   imagecount = imagecount + x;
+      if(imagecount > total){ imagecount = 1;}
+   if(imagecount < 1) { imagecount = total;}
+   Image.src = "Images/gallery/summernight/img"+ imagecount +".jpg"
+   }
+   window.setInterval(function slideA() {
+   var Image = document.getElementById('img');
+   imagecount = imagecount + 1;
+      if(imagecount > total){ imagecount = 1;}
+   if(imagecount < 1) { imagecount = total;}
+   Image.src = "Images/gallery/summernight/img"+ imagecount +".jpg"
+   },5000);
+</script>
+</head>
+
+<body onLoad="slideA()">
+
+<header class="Pageheader" >
+<img src="Images/logo.png" id="logo" span title="BRO Logo" alt="Barrier Reef Orchestra"/>
+<h1 id="pagename">Gallery</h1>
+
+</header>
+
+
+<section class="pagebody">
+<section class="pageholder">
+<article class="leftbar">
+<nav class="navbar">
+ 	<ul>
+		<li><span title="Home Page"><a href="index.html">Home</a></li>
+		<li><span title="About Us Page"><a href="about.html">About Us</a></li>       
+        <li><span title="News Page"><a href="news.html">News</a></li>
+        <li><span title="People Page"><a href="people.html">People</a></li>
+        <li><span title="Supporters Page"><a href="supporters.html">Supporters</a></li>
+        <li><span title="Gallery Page"><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+
+</article>
+
+<article class="rightbar">
+<h1 id="rightboxtitle" align="center"> Gallery of Shows</h1>
+<div id="container">
+<img src="Images/gallery/summernight/img1.jpg" id="img" span="hot summer night" alt="hot summer night">
+<div id="left_holder"><img onClick="slide(-1)" class="left" src="Images/gallery/left arrow.png"></div>
+<div id="right_holder"><img onClick="slide(1)" class="right" src="Images/gallery/right arrow.png"></div>
+</div>
+</article>
+</section>
+</section>
+
+
+<footer class="footerouter">
+<section class="footer">
+<img src="Images/townsville-council-logo Small.png" id="footerimg" span title="CityofTownsvilLogo" alt="The City of Townsvill"/>
+<p>©<span title="Link To Home"><a href="index.html">Barrier Reef Orchestra.</a> All rights reserved.</p>
+</section>
+</section>
+</body>
+</html>
