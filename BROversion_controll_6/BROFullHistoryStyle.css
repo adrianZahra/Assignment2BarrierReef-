@@ -139,3 +139,12 @@ html{
 #RTT{
 	text-align:center;
 }
+a, a:link {
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+}
+
+a:hover {
+	color:#2B15EA;
+}
